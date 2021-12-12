@@ -1,0 +1,17 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      var txtFile = "./block.json";
+      var file = new File(txtFile);
+      var str = "My string of text";
+ 
+      file.open("w"); // open file with write access
+      file.writeln(str);
+      file.write(str);
+      file.close();
+    </script>
+<h1>some text</h1>
+  </body>
+</html>
