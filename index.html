@@ -2,10 +2,14 @@
   <head>
   </head>
   <body>
-    <script>
-      var file = new File('test.txt')
-      file.open("r")
-      console.log(file)
-    </script>
+    <?php
+// start of php code,
+// @author Jon Hurlock (http://cs.swan.ac.uk/~csjonhurlock/)
+
+// whats the file's name?
+$file_name = "test.txt";
+// open the file, the 'r' property means read file
+$file_handler = fopen($file_name, 'r');
+?>
   </body>
 </html>
