@@ -1,8 +1,5 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <?php
+
+<?php
 // start of php code,
 // @author Jon Hurlock (http://cs.swan.ac.uk/~csjonhurlock/)
 
@@ -12,5 +9,4 @@ $file_name = "test.txt";
 $file_handler = fopen($file_name, 'r');
 print "First five bytes of the file:<b> $file_handler </b> <br />\n";
 ?>
-  </body>
-</html>
+
